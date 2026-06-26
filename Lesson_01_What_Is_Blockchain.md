@@ -1,6 +1,7 @@
 ### Lesson 01: What Is Blockchain?
 
 **1. Core Concept**
+
 The modern world relies heavily on centralized intermediaries (like banks to hold money, or election committees to count votes). This creates a single point of failure and issues with trust, control, and permission. A blockchain solves this by removing the need to trust a centralized authority; instead, it uses a transparent system governed entirely by math, code, and cryptography.
 
 **2. Key Mechanisms**
