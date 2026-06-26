@@ -1,6 +1,7 @@
 ### Lesson 02: History and Evolution
 
 **1. Core Concept**
+
 The blockchain evolution began as a solution to the "Double-Spend Problem"—creating a digital currency without a central intermediary. This evolved from Bitcoin (a decentralized calculator/store of value) to Ethereum (a decentralized computer/execution layer for agreements).
 
 **2. Key Mechanisms**
