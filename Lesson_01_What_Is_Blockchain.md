@@ -10,6 +10,7 @@ The modern world relies heavily on centralized intermediaries (like banks to hol
 * **Native Cryptocurrencies:** To operate a decentralized financial system without a bank, blockchains use their own native currencies to allow users to transfer value directly and permissionlessly.
 
 **3. The "Why It Matters" (Security Perspective)**
+
 Because blocks are linked via cryptographic hashes, the blockchain is **immutable**. If a malicious actor tries to alter a past transaction, the hash of that block changes entirely. This breaks the link to the next block, immediately alerting the entire network to the fraud. As an auditor, this immutability is crucial: once a smart contract is deployed to this chain, its code cannot be silently altered.
 
 **4. Terms to Remember**
