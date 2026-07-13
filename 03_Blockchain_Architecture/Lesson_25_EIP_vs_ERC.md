@@ -4,16 +4,18 @@
 
 Ethereum relies on formal technical standardization to upgrade its network and maintain developer harmony. **EIPs** (Ethereum Improvement Proposals) govern the structural evolution of the core protocol, nodes, and networking layers. **ERCs** (Ethereum Requests for Comment) are a specialized subcategory of EIPs focused entirely on the application layer. They ensure **interoperability**, allowing wallets, decentralized applications (dApps), and exchanges to seamlessly communicate with thousands of independent smart contracts.
 
-   ┌──────────────────────────────────────────────┐
-   │   EIP (Ethereum Improvement Proposal)        │
-   │  ┌────────────────────────────────────────┐  │
-   │  │    ERC (Ethereum Request for Comment)  │  │
-   │  │   - Application Layer Standards        │  │
-   │  │   - Token Rules (ERC-20, ERC-721)      │  │
-   │  └────────────────────────────────────────┘  │
-   │  - Core Protocol Changes                     │
-   │  - Consensus & Hard Forks                    │
-   └──────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph EIP [EIP: Ethereum Improvement Proposal]
+        direction TB
+        Core[Core EIPs: Protocol Changes & Hard Forks]
+        subgraph ERC [ERC: Ethereum Request for Comment]
+            direction TB
+            App[Application Layer Standards]
+            Tokens[Token Rules: ERC-20, ERC-721, ERC-1155]
+        end
+    end
+```
 
 **2. Key Mechanisms**
 * **The EIP Framework:** A decentralized process allowing anyone to propose blueprints for protocol modifications. Proposals pass through strict maturity phases: **Draft** $\rightarrow$ **Review** $\rightarrow$ **Last Call** $\rightarrow$ **Final**.
